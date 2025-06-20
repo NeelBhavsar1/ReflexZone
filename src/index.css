@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #F9FAFB;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.router-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10vh;
+}
+
+.router-container h1 {
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.NotFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.NotFound h1 {
+  font-size: 7rem;
+
+}
+
+.nf1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: rgb(105, 101, 101);
+}
+.nf2 {
+  font-size: 2rem;
+  color: rgb(131, 129, 129);;
+}
+
+.nf3 {
+  font-size: 20px;
+}
+
+.NotFound button {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.NotFound button:hover {
+  transform: scale(1.1);
+  filter: brightness(1.4);
+
+}

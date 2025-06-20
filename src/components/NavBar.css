@@ -1,0 +1,46 @@
+.navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 7%;
+}
+
+.navbar-container ul {
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+a {
+    transition: background-color 0.6s ease, color 0.6s ease, border-radius 0s ease;
+}
+
+a.active {
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+}
+
+.navbar-container button {
+    background: #000;
+    color: #fff;
+    padding: 12px 25px;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.navbar-container button:hover {
+    transform: scale(1.1);
+    filter: brightness(1.4);
+}
