@@ -3,6 +3,8 @@ import './NavBar.css'
 import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
 
+//navigation bar 
+
 function NavBar() {
     return (
         <div className='navbar-container'>

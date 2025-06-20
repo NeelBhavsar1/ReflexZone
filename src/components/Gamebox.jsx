@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../index.css'
 
-
+//Reusable component for displaying content in the gamescreen
 const Gamebox = ({ title, path, description }) => {
   return (
     

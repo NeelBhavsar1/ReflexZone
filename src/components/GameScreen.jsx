@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './GameScreen.css'
 import { Navigate, useNavigate } from 'react-router-dom'
+
+//reusable component for displaying the game item component when users have clicked game mode
 
 const GameScreen = ({ title, description, onStart }) => {
 
     const navigate = useNavigate()
-
+    
   return (
     <div className='gamescreen-container'>
         <h1>{title}</h1>

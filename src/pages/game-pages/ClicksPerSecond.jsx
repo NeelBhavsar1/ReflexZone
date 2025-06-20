@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import GameScreen from '../../components/GameScreen'
 import '../../index.css'
-import CpsGame from '../../components/playinggamecomponents/cpsGame/CpsGame';
+import CpsGame from '../../components/playinggamecomponents/cpsGame/cpsgame/CpsGame';
+
 
 
 const ClicksPerSecond = () => {
@@ -10,7 +11,7 @@ const ClicksPerSecond = () => {
 
   const handleStart = () => {
     setIsPlaying(!isPlaying)
-    console.log("Game state: True")
+    console.log("Game state: Truee")
 
   }
 
