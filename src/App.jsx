@@ -6,7 +6,11 @@ import Games from './pages/Games'
 import Statistics from './pages/Statistics'
 import Settings from './pages/Settings'
 import NotFound from './pages/NotFound'
+import ClicksPerSecond from './pages/game-pages/ClicksPerSecond'
+import Precision from './pages/game-pages/Precision'
 import './index.css'
+import MovingTargets from './pages/game-pages/MovingTargets'
+import ReactionTime from './pages/game-pages/ReactionTime'
 
 
 
@@ -20,8 +24,16 @@ const App = () => {
         <Route path='/games' element={<Games />}></Route>
         <Route path='/statistics' element={<Statistics />}></Route>
         <Route path='/settings' element={<Settings />}></Route>
+        <Route path='/clicks-per-second-challenge' element={<ClicksPerSecond />}></Route>
+        <Route path='/precision-challenge' element={<Precision />}></Route>
+        <Route path='/moving-targets-challenge' element={<MovingTargets />}></Route>
+        <Route path='/reaction-time-test' element={<ReactionTime />}></Route>
 
         <Route path='*' element={<NotFound/>}></Route>
+
+        
+
+        
       </Routes>
       </div>
       
