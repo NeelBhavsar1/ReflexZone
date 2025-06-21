@@ -15,7 +15,7 @@ function NavBar() {
                 <NavLink to='/statistics'><li>Statistics</li></NavLink>
                 <NavLink to='/settings'><li>Settings</li></NavLink>
             </ul>
-            <button>Sign in</button>
+            <Link to='/signin' className='navbar-btn'>Sign in</Link>
         </div>
     )
 }

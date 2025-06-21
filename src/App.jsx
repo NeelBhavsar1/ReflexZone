@@ -11,6 +11,7 @@ import Precision from './pages/game-pages/Precision'
 import './index.css'
 import MovingTargets from './pages/game-pages/MovingTargets'
 import ReactionTime from './pages/game-pages/ReactionTime'
+import Signin from './pages/Signin'
 
 
 
@@ -28,6 +29,7 @@ const App = () => {
         <Route path='/precision-challenge' element={<Precision />}></Route>
         <Route path='/moving-targets-challenge' element={<MovingTargets />}></Route>
         <Route path='/reaction-time-test' element={<ReactionTime />}></Route>
+        <Route path='/signin' element={<Signin />}></Route>
 
         <Route path='*' element={<NotFound/>}></Route>
 

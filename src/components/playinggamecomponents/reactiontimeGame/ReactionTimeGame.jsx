@@ -8,12 +8,12 @@ const ReactionTimeGame = () => {
   const navigate = useNavigate()
 
   const resetGame = () => {
-  setGameStarted(false)
-  setSignalShown(false)
-  setStartTime(null)
-  setReactionTime(0)
-  setMessage("Click the box to start!")
-  setClickable(true)
+  setGameStarted(false) //start game or not
+  setSignalShown(false) 
+  setStartTime(null) //logic for reaction test
+  setReactionTime(0) //initial score
+  setMessage("Click the box to start!") //display message on screen
+  setClickable(true) //disable button or not
 }
 
   const [reactionTime, setReactionTime] = useState(0)
@@ -33,6 +33,8 @@ const ReactionTimeGame = () => {
     if (!gameStarted) {
       console.log("ReactionTime game has started!")
       setGameStarted(true)
+      setClickable(false)
+      setMessage("Game has started!")
 
       const randomDelay = Math.floor(Math.random() * 3000) + 2000;
 
@@ -51,7 +53,8 @@ const ReactionTimeGame = () => {
       setClickable(false)
       
     } else {
-      setMessage("Too soon! Wait for the green signal")
+      //redundant, not needed since setClickable set to false in early section to fix a bug i cannot debug
+      setMessage("Too soon! Wait for the green signal") 
       setClickable(false)
  
 

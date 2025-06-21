@@ -28,6 +28,7 @@ a.active {
     color: white;
 }
 
+/*
 .navbar-container button {
     background: #000;
     color: #fff;
@@ -40,7 +41,27 @@ a.active {
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
+
+
 .navbar-container button:hover {
+    transform: scale(1.1);
+    filter: brightness(1.4);
+}
+*/
+
+.navbar-btn {
+  background: #000;
+    color: #fff;
+    padding: 12px 25px;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;  
+}
+
+.navbar-btn:hover {
     transform: scale(1.1);
     filter: brightness(1.4);
 }

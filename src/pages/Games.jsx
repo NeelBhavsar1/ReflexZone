@@ -27,23 +27,25 @@ const Games = () => {
         path="/precision-challenge"
         />
 
+        {/*
         <GameBox 
         className='game-box'
         title="Moving Targets"
         description="Challenge your accuracy by shooting targets that move unpredictably."
         path="/moving-targets-challenge"
         />
+        */}
 
+        
         <GameBox 
         className='game-box'
         title="Reaction Time Test"
         description="Measure how quickly you can respond to visual cues in this fast-paced test."
         path="/reaction-time-test"
-        />
-
-
-    
+        />    
       </div>
+
+      <p className='add-on'>More gamemodes coming soon!</p>
 
 
     </div>
