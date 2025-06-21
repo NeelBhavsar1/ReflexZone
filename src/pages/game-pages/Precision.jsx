@@ -17,6 +17,7 @@ const Precision = () => {
     <div>
 
       {isPlaying ? (
+        //find me in components / playinggamecomponents / precisionGame
         <PrecisionGame />
       ) : (
 

@@ -74,12 +74,66 @@ a {
 }
 
 .home-welcome {
-  padding: 10px 32px;
-  margin-top: 2vh;
+  padding: 30px;
+  margin-top: .5vh;
+
 }
 
 .home-welcome p {
   font-size: 1.3rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 30px;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.info-item {
+  
+  padding: 10px 30px;
+  border-radius: 12px;
+  box-shadow:0 2px 8px rgba(0, 0, 0, 0.3);
+
+  transition: border 0.3s ease, transform 0.3s ease;
+
+}
+
+.info-item:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.info-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.info-item h3 {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info-item p {
+  font-size: 1.2rem;
+}
+
+.underline  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 30px;
+  margin-top: 1px;
+  margin-bottom: 10px;
 }
 
 .games-information {
@@ -186,9 +240,15 @@ a {
   margin-top: 100px;
   background: #fff;
   padding: 30px 40px;
-  border: 2px solid black;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   border-radius: 12px;
+  transition: border 0.3s ease, transform 0.3s ease;
   
+}
+
+.signin-container:hover {
+  border: 2px solid black;
+  transform: scale(1.05);
 }
 
 .header {

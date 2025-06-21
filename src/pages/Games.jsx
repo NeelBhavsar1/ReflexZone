@@ -45,7 +45,7 @@ const Games = () => {
         />    
       </div>
 
-      <p className='add-on'>More gamemodes coming soon!</p>
+      {/*<p className='add-on'>More gamemodes coming soon!</p>*/}
 
 
     </div>
