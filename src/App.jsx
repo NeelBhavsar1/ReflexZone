@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './components/NavBar'
 import Home from './pages/Home'
-import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Games from './pages/Games'
 import Statistics from './pages/Statistics'
 import Settings from './pages/Settings'
@@ -19,7 +19,7 @@ on how to code these, will possibly come back to this when ive learnt them all*/
 
 const App = () => {
   return (
-    <Router basename="/reflexzone">
+
       <div>
         <NavBar />
         <div className='router-container'>
@@ -44,7 +44,7 @@ const App = () => {
         
         
       </div>
-    </Router>
+
   )
 }
 
