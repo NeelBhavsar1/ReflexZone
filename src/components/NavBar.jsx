@@ -11,8 +11,8 @@ function NavBar() {
         <div className='navbar-container'>
             <img src={ReflexZone} alt="ReflexZone icon" width="250px"/>
             <ul>
-                <NavLink to ='/'><li>Home</li></NavLink>
-                <NavLink to= '/games'><li>Games</li></NavLink>
+                <li><NavLink to ='/'>Home</NavLink></li>
+                <li><NavLink to= '/games'>Games</NavLink></li>
                 {/*<NavLink to='/statistics'><li>Statistics</li></NavLink>*/}
                 {/*<NavLink to='/settings'><li>Settings</li></NavLink>*/}
             </ul>
