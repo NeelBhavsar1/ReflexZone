@@ -16,6 +16,7 @@ function NavBar() {
                 <NavLink to='/settings'><li>Settings</li></NavLink>
             </ul>
             <Link to='/signin' className='navbar-btn'>Sign in</Link>
+
         </div>
     )
 }

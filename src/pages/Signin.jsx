@@ -32,7 +32,7 @@ const Signin = () => {
                 <input type="password" placeholder='Password' />
             </div>
         </div>
-        <div className="forgot-password">Lost Password? <span>Click Here!</span></div>
+        <div className="forgot-password">Forgot Password? <span>Click Here!</span></div>
         <div className="submit-container">
             <div className={decider === "Login" ? "submit darkify" : "submit"} onClick={() => {setDecider("Sign Up")}}>Sign Up</div>
             <div className={decider === "Sign Up" ? "submit darkify" : "submit"} onClick={() => {setDecider("Login")}}>Login</div>
