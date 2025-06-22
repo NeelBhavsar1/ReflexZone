@@ -13,7 +13,9 @@ import MovingTargets from './pages/game-pages/MovingTargets'
 import ReactionTime from './pages/game-pages/ReactionTime'
 import Signin from './pages/Signin'
 
-
+/* 
+other links here such sign in, stats, settings have been removed due to insufficient knowledge
+on how to code these, will possibly come back to this when ive learnt them all*/
 
 const App = () => {
   return (

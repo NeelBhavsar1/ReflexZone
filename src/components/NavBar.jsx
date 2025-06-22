@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom'
 
 //navigation bar 
 
+
 function NavBar() {
     return (
         <div className='navbar-container'>
@@ -12,10 +13,10 @@ function NavBar() {
             <ul>
                 <NavLink to ='/'><li>Home</li></NavLink>
                 <NavLink to= '/games'><li>Games</li></NavLink>
-                <NavLink to='/statistics'><li>Statistics</li></NavLink>
-                <NavLink to='/settings'><li>Settings</li></NavLink>
+                {/*<NavLink to='/statistics'><li>Statistics</li></NavLink>*/}
+                {/*<NavLink to='/settings'><li>Settings</li></NavLink>*/}
             </ul>
-            <Link to='/signin' className='navbar-btn'>Sign in</Link>
+            {/*<Link to='/signin' className='navbar-btn'>Sign in</Link> */}
 
         </div>
     )

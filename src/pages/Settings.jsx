@@ -10,22 +10,26 @@ const Settings = () => {
       <div className="settings-container">
         <div className="settings-info">
           <h1>Settings</h1>
-          <p>Customize your ReflexZone experience. Adjust sound and visual preferences, manage notifications, and update your account details here. Make the app work the way you like it!</p>
+          <p>Customize your ReflexZone experience here, adjust it to the way you like! </p>
         </div>
 
         <div className="container-settings">
+          
           <div className="container-item">
             <p>Light mode / Dark mode</p>
             <ToggleButton />
           </div>
+          
           <div className="container-item">
             <p>Enable / disable background music</p>
             <ToggleButton />
           </div>
+          
           <div className="container-item">
             <p>Enable / disable sound effects</p>
             <ToggleButton />
           </div>
+          
         </div>
         
 

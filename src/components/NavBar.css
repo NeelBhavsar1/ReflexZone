@@ -9,7 +9,7 @@
 .navbar-container ul {
     padding: 10px 30px;
     border-radius: 30px;
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
 }
 
 .navbar-container ul li {

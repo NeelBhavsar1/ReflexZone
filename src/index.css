@@ -104,7 +104,7 @@ a {
 
 .info-item:hover {
   border: 1px solid black;
-  transform: scale(1.05);
+  transform: scale(1.02);
   cursor: pointer;
 }
 
@@ -189,9 +189,16 @@ a {
   font-size: 1.3rem;
 }
 
+
+
 .settings-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 10px 30px;
   margin-top: 2vh;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .settings-info p {
