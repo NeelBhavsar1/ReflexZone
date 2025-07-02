@@ -13,6 +13,7 @@ function NavBar() {
             <ul>
                 <NavLink to ='/'><li>Home</li></NavLink>
                 <NavLink to= '/games'><li>Games</li></NavLink>
+                <NavLink to='/reflexbot'><li>ReflexBot</li></NavLink>
                 {/*<NavLink to='/statistics'><li>Statistics</li></NavLink>*/}
                 {/*<NavLink to='/settings'><li>Settings</li></NavLink>*/}
             </ul>
