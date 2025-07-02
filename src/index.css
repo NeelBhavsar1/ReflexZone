@@ -452,7 +452,7 @@ a {
   margin: 8px 0;
   align-self: flex-start;
   border-radius: 12px;
-  background: rgba(75, 153, 179, 0.25); 
+  background: rgba(32, 142, 179, 0.4); 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 2px solid rgba(173, 216, 230, 0.8); 
@@ -470,6 +470,7 @@ a {
   display: flex;
   gap: 5px;
   text-align: left;
+  align-items: center;
 
   background: rgba(240, 240, 240, 0.25); 
   border-radius: 12px;
@@ -507,8 +508,6 @@ a {
   width: calc(100% - 40px);
   margin: 15px auto;
   box-sizing: border-box;
-  
-  background: linear-gradient(135deg, #e0e5e8, #9ea0a2);
   border: 1.5px solid #aab5bd;
   box-shadow: 0 2px 6px rgba(170, 181, 189, 0.4);
   backdrop-filter: saturate(180%) blur(8px);
@@ -518,7 +517,6 @@ a {
 }
 
 .chatbox-btm:hover {
-  background: linear-gradient(135deg, #d4dade, #b8c3ca);
   border-color: #8a95a1;
   box-shadow: 0 4px 12px rgba(138, 149, 161, 0.6);
 }
@@ -554,4 +552,32 @@ a {
 .chatbox-btm img:hover {
   background-color: #d6e0eb;
   border-color: #3b4a57;
+}
+
+.markdown {
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.markdown p {
+  margin: 8px 0;
+}
+
+.markdown ul {
+  padding-left: 1.5rem;
+  margin: 8px 0;
+}
+
+.markdown li {
+  margin-bottom: 6px;
+}
+
+.markdown strong {
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.markdown em {
+  font-style: italic;
+  color: #444;
 }
